@@ -1,4 +1,4 @@
-# Kod z warsztatów z okazji _Święta Liczby PI_ organizowanego przez Uniwersytet Śląski w Katowicach 14 marca 2023 roku
+# Kod z warsztatów z okazji _Święta Liczby Pi_ organizowanego przez Uniwersytet Śląski w Katowicach 14 marca 2023 roku
 
 ## Zawartość:
 
