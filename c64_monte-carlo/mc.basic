@@ -1,0 +1,16 @@
+   10 rem *** monte carlo
+   20 i=0
+   30 cp=0 :rem circle points
+   31 sp=0 :rem square points
+   40 i=i+1
+   50 rx=rnd(1)
+   51 ry=rnd(1)
+   60 d=rx*rx+ry*ry
+   70 if d<=1 then cp=cp+1
+   80 sp=sp+1
+   90 pi=4*cp/sp
+  100 err=abs(3.14159265-pi)
+  104 cl=154
+  105 if err<0.01 then cl=30
+  110 print chr$(cl);i;tab(10);pi;tab(23);err
+  120 goto 40

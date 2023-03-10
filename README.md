@@ -8,6 +8,6 @@
 
 `/arduino` -- program uruchomiony na Arduino Leonardo z podłączonym ośmiocyfrowym wyświetlaczem siedmiosegmentowym
 
-`/C64_demo` -- program demo uruchomiony na Commodore C64
+`/c64_demo` -- program demo uruchomiony na Commodore C64
 
-`/C64_monte-carlo` -- program napisany w Basicu i uruchomiony na Commodore C64
+`/c64_monte-carlo` -- program napisany w Basicu i uruchomiony na Commodore C64
