@@ -1,4 +1,4 @@
-# Kod z warsztatów z okazji _Święta Liczby PI_ organizowanego przez Uniwersytet Śląski w katowicach w 2023 roku
+# Kod z warsztatów z okazji _Święta Liczby PI_ organizowanego przez Uniwersytet Śląski w Katowicach 14 marca 2023 roku
 
 ## Zawartość:
 
@@ -8,4 +8,6 @@
 
 `/arduino` -- program uruchomiony na Arduino Leonardo z podłączonym ośmiocyfrowym wyświetlaczem siedmiosegmentowym
 
-`/C64_demo` -- program demo uruchomiony na Commodore C64 
+`/C64_demo` -- program demo uruchomiony na Commodore C64
+
+`/C64_monte-carlo` -- program napisany w Basicu i uruchomiony na Commodore C64
