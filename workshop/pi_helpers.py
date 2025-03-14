@@ -2,14 +2,14 @@ from turtle import *
 
 RADIUS = 300
 
-def draw_target():
-    # -- konfiguracja
+def draw_board():
+    # -- set up
     screensize(800, 800)
     speed("fastest")
     title("Wyznaczanie π metodą Monte Carlo")
     penup()
 
-    # -- kwadrat
+    # -- square
     color("gray50", "gray80")
     begin_fill()
     goto(-RADIUS, -RADIUS)
@@ -19,7 +19,7 @@ def draw_target():
         left(90)
     end_fill()
 
-    # -- koło
+    # -- circle
     color("gray70", "gray90")
     goto(0, -RADIUS)
     pendown()
@@ -29,14 +29,14 @@ def draw_target():
     penup()
 
 
-    # -- oś X
+    # -- X-axis
     pencolor("gray50")
     goto(-400, 0)
     pendown()
     goto(400, 0)
     penup()
 
-    # -- oś Y
+    # -- Y-axis
     goto(0, -400)
     pendown()
     goto(0, 400)
